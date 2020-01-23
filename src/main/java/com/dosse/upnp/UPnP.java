@@ -25,7 +25,7 @@ package com.dosse.upnp;
  * @author Federico
  */
 public class UPnP {
-
+    public static String NAME = "WaifUPnP";
     private static Gateway defaultGW = null;
     private static final GatewayFinder finder = new GatewayFinder() {
         @Override
