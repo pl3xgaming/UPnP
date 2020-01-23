@@ -49,7 +49,7 @@ abstract class GatewayFinder {
         private String req;
 
         public GatewayListener(Inet4Address ip, String req) {
-            setName("WaifUPnP - Gateway Listener");
+            setName(Gateway.NAME + " - Gateway Listener");
             this.ip = ip;
             this.req = req;
         }
